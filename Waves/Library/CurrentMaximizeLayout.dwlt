@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 850
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 707, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 3540
+  controlID: 6226
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1011
     height: 850
-  m_MinSize: {x: 433, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 431, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 3541
+  controlID: 6227
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 3605
+  controlID: 6255
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,23 +222,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98e2ffff
-      m_LastClickedID: -7528
-      m_ExpandedIDs: b6f0fffff0f1ffff34fbffff204800002848000032480000
+      m_SelectedIDs: 0ea10000
+      m_LastClickedID: 41230
+      m_ExpandedIDs: 7cc7feffbecdfeff1ed6feff26dcfeffc8dcfeffcadcfeffd0dcfeff90e2feff90e8feff00f1feff1ef7feff3efdfeff1003fffff60bffffe611fffff619ffffea1fffffde25ffffdc2bffff3c34ffff343affff1240ffff1446ffff144cffffe451ffff8656ffff925effff8664ffff786affffaa72ffffbc78ffff967effffe086ffffac8cffffb894ffff769affffe2a0ffff78a7ffff4cb1ffff5cb6ffff36b9ffffd0bfffffecc5ffff58c6ffffc0c6ffff60cbffff28d1ffff52d3ffff48d7ffff16d9ffffe4daffffb8dcffff8edeffff62e0ffff36e2ffff06e4fffffae7ffffcee9ffffa2ebffff6ef3ffff26fbffff32570000aa5b0000265d0000ca85000044870000a4990000de990000789b00000c9c0000be9e0000329f00000ea10000c4a10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Boat
+        m_OriginalName: Boat
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 41374
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -267,8 +267,8 @@ MonoBehaviour:
     y: 0
     width: 673
     height: 554
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 8}
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 43.670906, y: -37.924385, z: 146.02345}
+    m_Target: {x: 49.168564, y: 3.1088812, z: 60.750603}
     speed: 2
-    m_Value: {x: 43.670906, y: -37.924385, z: 146.02345}
+    m_Value: {x: 49.168564, y: 3.1088812, z: 60.750603}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -450,13 +450,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10177942, y: -0.86648995, z: 0.1972331, w: -0.44714025}
+    m_Target: {x: -0.10197614, y: 0.4671209, z: -0.054340445, w: -0.8766106}
     speed: 2
-    m_Value: {x: -0.10177947, y: -0.8664903, z: 0.19723319, w: -0.44714043}
+    m_Value: {x: -0.10197614, y: 0.4671209, z: -0.054340445, w: -0.8766106}
   m_Size:
-    m_Target: 209.74615
+    m_Target: 24.23587
     speed: 2
-    m_Value: 209.74615
+    m_Value: 24.23587
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -502,10 +502,10 @@ MonoBehaviour:
     y: 554
     width: 1011
     height: 296
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 431, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 3542
+  controlID: 6228
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -572,20 +572,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Objects
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Objects
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/michaelli/Desktop/ShipGame/Waves
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 70470000
-    m_LastClickedID: 18288
-    m_ExpandedIDs: 00000000763f000000ca9a3b
+    m_SelectedIDs: a6470000
+    m_LastClickedID: 18342
+    m_ExpandedIDs: 00000000843f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000763f000000ca9a3b
+    m_ExpandedIDs: 00000000843f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,9 +638,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 98e2ffff
-    m_LastClickedInstanceID: -7528
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 0ea10000
+    m_LastClickedInstanceID: 41230
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000bc4a0000544900003a4900003e3a00007e330000943c0000703e00006c3c00008abcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
