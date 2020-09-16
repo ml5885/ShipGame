@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 850
-  m_MinSize: {x: 709, y: 471}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 706, y: 492}
+  m_MaxSize: {x: 18001, y: 14042}
   vertical: 0
-  controlID: 4368
+  controlID: 7562
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_SerializedCustomFieldsValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 386, y: 217}
   m_TextureFilterMode: 0
@@ -138,10 +138,10 @@ MonoBehaviour:
     y: 0
     width: 1164
     height: 850
-  m_MinSize: {x: 433, y: 471}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 431, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 1
-  controlID: 4369
+  controlID: 7563
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,10 +163,10 @@ MonoBehaviour:
     y: 0
     width: 1164
     height: 554
-  m_MinSize: {x: 302, y: 200}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 303, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 4432
+  controlID: 7627
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,9 +222,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: aea4ffff
-      m_LastClickedID: -23378
-      m_ExpandedIDs: 7ac1ffffe8c1ffffa6c3ffff12c4ffff76c5ffff0c7600001e7600004e76000068760000
+      m_SelectedIDs: 0cb0ffff
+      m_LastClickedID: -20468
+      m_ExpandedIDs: bad2ffffe0d2ffffa0d3ffff1cd5ffffb6480000fc4900000e4a0000584a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -402,9 +402,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 70.567825, y: -65.332596, z: 109.75322}
+    m_Target: {x: 49.129612, y: 0.24106088, z: 62.760033}
     speed: 2
-    m_Value: {x: 70.567825, y: -65.332596, z: 109.75322}
+    m_Value: {x: 49.129612, y: 0.24106088, z: 62.760033}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -450,13 +450,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.10107243, y: 0.8434998, z: -0.49911645, w: 0.17081112}
+    m_Target: {x: -0.06569447, y: 0.6550717, z: -0.057339847, w: -0.750518}
     speed: 2
-    m_Value: {x: 0.10081604, y: 0.84424704, z: -0.49785036, w: 0.17096242}
+    m_Value: {x: -0.06569447, y: 0.6550717, z: -0.057339847, w: -0.750518}
   m_Size:
-    m_Target: 217.84506
+    m_Target: 4.8999968
     speed: 2
-    m_Value: 206.09753
+    m_Value: 4.8999968
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -502,10 +502,10 @@ MonoBehaviour:
     y: 554
     width: 1164
     height: 296
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 431, y: 271}
+  m_MaxSize: {x: 14001, y: 10021}
   vertical: 0
-  controlID: 4370
+  controlID: 7564
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -572,20 +572,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Objects
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/michaelli/Desktop/ShipGame/Waves
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e740000
-    m_LastClickedID: 29854
-    m_ExpandedIDs: 000000002c5e000000ca9a3b
+    m_SelectedIDs: 14480000
+    m_LastClickedID: 18452
+    m_ExpandedIDs: 00000000963f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c5e000000ca9a3b
+    m_ExpandedIDs: 00000000963f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -638,8 +638,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: aea4ffff
-    m_LastClickedInstanceID: -23378
+    m_SelectedInstanceIDs: 0cb0ffff
+    m_LastClickedInstanceID: -20468
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000bc4a0000544900003a4900003e3a00007e330000943c0000703e00006c3c00008abcffff00000000
     m_RenameOverlay:
@@ -868,4 +868,4 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 30220
+  m_LastSelectedObjectID: -20468
