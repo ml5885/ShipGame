@@ -35,7 +35,7 @@ public class BoatHealth : MonoBehaviour
         }
         else if(col.tag == "Coins")
         {
-            points += 1;
+            points += 10;
             Debug.Log(points);
         }
     }

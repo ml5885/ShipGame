@@ -17,7 +17,6 @@ public class PickUp : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            Debug.Log("Picked up coin");
             Destroy(gameObject);
         }
     }
