@@ -128,6 +128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 758395765}
     m_Modifications:
+    - target: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4334879809181752412, guid: 6a9e853186d4d1c419693abf4380f553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -657,6 +662,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 758395765}
     m_Modifications:
+    - target: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4334879809181752412, guid: 6a9e853186d4d1c419693abf4380f553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1104,7 +1114,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!4 &318098453
 Transform:
   m_ObjectHideFlags: 0
@@ -1271,6 +1281,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_Name
@@ -1371,6 +1386,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_Name
@@ -1469,6 +1489,11 @@ PrefabInstance:
     - target: {fileID: 3459691189280967777, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
@@ -2158,6 +2183,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_Name
@@ -2490,6 +2520,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_Name
@@ -2585,6 +2620,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 758395765}
     m_Modifications:
+    - target: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4334879809181752412, guid: 6a9e853186d4d1c419693abf4380f553,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2688,6 +2728,11 @@ PrefabInstance:
     - target: {fileID: 3459691189280967777, guid: 3868d2852341d6e488ed08290ac4cf4c,
         type: 3}
       propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
+        type: 3}
+      propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
