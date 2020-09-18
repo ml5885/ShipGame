@@ -6,7 +6,6 @@ TagManager:
   tags:
   - Enemy
   - Coins
-  - PostProcessing
   layers:
   - Default
   - TransparentFX
