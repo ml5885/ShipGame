@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class finishLine : MonoBehaviour
 {
-    // Start is called before the first frame update
 
-    // Update is called once per frame
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider col)
     {
-        if (FinishLine.Tag == "Player")
+        if (col.tag == "Player")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
