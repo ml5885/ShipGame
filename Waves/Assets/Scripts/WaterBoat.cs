@@ -79,4 +79,10 @@ public class WaterBoat : MonoBehaviour
         //Camera.transform.position = Vector3.SmoothDamp(Camera.transform.position, transform.position + transform.forward * -8f + transform.up * 2f, ref CamVel, 0.05f);
     }
 
+    //void OnEnterTrigger(Collider col){
+    //    if(col.tag = "SpeedPickUp"){
+    //        SteerPower += 200; 
+    //    }
+    //}
+
 }

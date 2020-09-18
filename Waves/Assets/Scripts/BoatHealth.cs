@@ -9,20 +9,25 @@ public class BoatHealth : MonoBehaviour
     public int points = 0;
     public int currentHealth;
     public HealthBar healthBar;
+    public GameObject pauseMenu;
+    public GameObject gameUI;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.setMaxHealth(maxHealth);
+        Time.timeScale = 1f;
     }
     // Update is called once per frame
     void Update()
     {
-        if(currentHealth == 0)
+        if(currentHealth <= 0)
         {
             Destroy(gameObject);
-            Time.timeScale = 0.0f;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            gameUI.SetActive(false);                
+            Time.timeScale = 0f;
+            pauseMenu.SetActive(true);
         }
     }
     void OnTriggerEnter(Collider col)
@@ -35,7 +40,7 @@ public class BoatHealth : MonoBehaviour
         }
         else if(col.tag == "Coins")
         {
-            points += 1;
+            points += 10;
             Debug.Log(points);
         }
     }
