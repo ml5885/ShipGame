@@ -883,7 +883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Motor: {fileID: 161443297}
   SteerPower: 500
-  Power: 40
+  Power: 75
   MaxSpeed: 20
   Drag: 1
 --- !u!1 &161018319
