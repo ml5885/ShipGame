@@ -43,7 +43,7 @@ public class LevelMenu : MonoBehaviour
         plasticBottleScore.text = "+" + (BoatHealth.plasticBottlePoints*10);
         glassBottleScore.text = "+" + (BoatHealth.glassBottlePoints*5);
         plasticBagScore.text = "+" + (BoatHealth.plasticBagPoints*2);
-        timeScore.text = Mathf.Round(timer.timeRemaining).ToString();
+        timeScore.text = "+" + Mathf.Round(timer.timeRemaining).ToString();
     }
 
     public void onRestart(){
