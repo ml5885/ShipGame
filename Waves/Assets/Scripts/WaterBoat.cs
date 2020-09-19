@@ -4,7 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(WaterFloat))]
 public class WaterBoat : MonoBehaviour
 {
     //visible Properties
@@ -73,16 +72,6 @@ public class WaterBoat : MonoBehaviour
 
         //move in direction
         Rigidbody.velocity = Quaternion.AngleAxis(Vector3.SignedAngle(Rigidbody.velocity, (movingForward ? 1f : 0f) * transform.forward, Vector3.up) * Drag, Vector3.up) * Rigidbody.velocity;
-
-        //camera position
-        //Camera.transform.LookAt(transform.position + transform.forward * 6f + transform.up * 2f);
-        //Camera.transform.position = Vector3.SmoothDamp(Camera.transform.position, transform.position + transform.forward * -8f + transform.up * 2f, ref CamVel, 0.05f);
     }
-
-    //void OnEnterTrigger(Collider col){
-    //    if(col.tag = "SpeedPickUp"){
-    //        SteerPower += 200; 
-    //    }
-    //}
 
 }
