@@ -3403,10 +3403,6 @@ MonoBehaviour:
     scale: {x: 1.31, y: 8.63}
     height: 1
     alternate: 0
-  - speed: {x: 0, y: 15}
-    scale: {x: 1.31, y: 8.63}
-    height: 1
-    alternate: 0
 --- !u!4 &2040557766
 Transform:
   m_ObjectHideFlags: 0

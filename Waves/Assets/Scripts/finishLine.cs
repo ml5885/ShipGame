@@ -5,12 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class finishLine : MonoBehaviour
 {
+	public GameObject pointMenu;
+	public GameObject gameUI;
 
     void OnTriggerEnter(Collider col)
     {
         if (col.tag == "Player")
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        	gameUI.SetActive(false);
+            Time.timeScale = 0f;
+            pointMenu.SetActive(true);
         }
     }
 }
