@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44961494, g: 0.54065794, b: 0.65318245, a: 1}
+  m_IndirectSpecularColor: {r: 0.44961488, g: 0.540658, b: 0.65318257, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -121,6 +121,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &7035066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7035067}
+  - component: {fileID: 7035068}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7035067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035066}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: -0.25, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7035068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &36931707
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +328,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36931707}
   m_CullTransparentMesh: 0
+--- !u!1 &51144956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 51144957}
+  - component: {fileID: 51144958}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &51144957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51144956}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.75, y: -0.25, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &51144958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51144956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &72816116
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,12 +578,65 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &136590864 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
     type: 3}
   m_PrefabInstance: {fileID: 616095958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &139334069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 139334070}
+  - component: {fileID: 139334071}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &139334070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139334069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.25, z: 3.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &139334071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139334069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &152526032
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +842,6 @@ GameObject:
   - component: {fileID: 161443307}
   - component: {fileID: 369259167}
   - component: {fileID: 369259170}
-  - component: {fileID: 161018316}
   - component: {fileID: 369259171}
   - component: {fileID: 161018318}
   m_Layer: 0
@@ -697,24 +851,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &161018316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161018315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidbody: {fileID: 369259167}
-  depth: 1
-  disp: 3
-  numberOfFloatingPoints: 4
-  waterDrag: 5
-  waterAngularDrag: 2.5
 --- !u!1 &161018317
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,9 +882,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Motor: {fileID: 161443297}
-  SteerPower: 1200
-  Power: 20
-  MaxSpeed: 50
+  SteerPower: 500
+  Power: 40
+  MaxSpeed: 20
   Drag: 1
 --- !u!1 &161018319
 GameObject:
@@ -819,6 +955,12 @@ Transform:
   - {fileID: 737901007}
   - {fileID: 736951928}
   - {fileID: 2029930869}
+  - {fileID: 51144957}
+  - {fileID: 603290817}
+  - {fileID: 7035067}
+  - {fileID: 783327201}
+  - {fileID: 1899372413}
+  - {fileID: 139334070}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1411,8 +1553,8 @@ Rigidbody:
   m_GameObject: {fileID: 161018315}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 2
-  m_AngularDrag: 2
+  m_Drag: 1
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1633,6 +1775,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &451052991 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
@@ -1765,6 +1909,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &483104285 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
@@ -1782,7 +1928,7 @@ GameObject:
   - component: {fileID: 489369214}
   - component: {fileID: 489369215}
   m_Layer: 0
-  m_Name: FloatPoint
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1816,10 +1962,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1001 &498418588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2531,12 +2679,65 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &582205314 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
     type: 3}
   m_PrefabInstance: {fileID: 5889412897959617251}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &603290816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 603290817}
+  - component: {fileID: 603290818}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &603290817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603290816}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.75, y: -0.25, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603290818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603290816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1001 &616095958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2654,7 +2855,7 @@ GameObject:
   - component: {fileID: 637998634}
   - component: {fileID: 637998635}
   m_Layer: 0
-  m_Name: FloatPoint
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2688,10 +2889,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &653232648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5452235422062521312, guid: 6a9e853186d4d1c419693abf4380f553,
@@ -2716,6 +2919,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &653232651 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
@@ -2910,7 +3115,7 @@ GameObject:
   - component: {fileID: 736951928}
   - component: {fileID: 736951929}
   m_Layer: 0
-  m_Name: FloatPoint (2)
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2944,10 +3149,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &737901006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,10 +3200,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &738914878
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,7 +3217,7 @@ GameObject:
   - component: {fileID: 738914879}
   - component: {fileID: 738914880}
   m_Layer: 0
-  m_Name: FloatPoint
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3042,10 +3251,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &758395764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3085,6 +3296,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &783327200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783327201}
+  - component: {fileID: 783327202}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783327201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783327200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: -0.25, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &783327202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783327200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &813723067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5889412898186980070, guid: 3868d2852341d6e488ed08290ac4cf4c,
@@ -3109,6 +3371,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &813723070 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
@@ -3126,7 +3390,7 @@ GameObject:
   - component: {fileID: 840263222}
   - component: {fileID: 840263223}
   m_Layer: 0
-  m_Name: FloatPoint
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3140,7 +3404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840263221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 3.7}
+  m_LocalPosition: {x: 0, y: -0.5, z: 3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -3160,10 +3424,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &905732932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,9 +3984,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 612aa95ceb19a8047913baae96e2fc89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amp: 4
-  len: 0.0001
-  speed: 4
+  amp: 3
+  len: 1
+  speed: 1
   offsetWaves: 0
 --- !u!23 &1500057049
 MeshRenderer:
@@ -3819,6 +4085,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &1537996415 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 4081106531929830811, guid: 6a9e853186d4d1c419693abf4380f553,
@@ -3849,6 +4117,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &1599967798 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,
@@ -4245,6 +4515,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1854627970}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1899372412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1899372413}
+  - component: {fileID: 1899372414}
+  m_Layer: 0
+  m_Name: Floating Point (Upper)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1899372413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899372412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.25, z: -3.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 161443307}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1899372414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899372412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87309fd9535fcd7448214f707f4e6654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 369259167}
+  depth: 1
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &2016201484
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,7 +4735,7 @@ GameObject:
   - component: {fileID: 2029930869}
   - component: {fileID: 2029930870}
   m_Layer: 0
-  m_Name: FloatPoint (3)
+  m_Name: Floating Point (Lower)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4448,10 +4769,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 369259167}
   depth: 1
-  disp: 2
-  numberOfFloatingPoints: 6
-  waterDrag: 10
-  waterAngularDrag: 10
+  disp: 4
+  numberOfFloatingPoints: 12
+  waterDrag: 5
+  waterAngularDrag: 5
+  heightAboveTolerance: 1
+  multiplier: 1.5
 --- !u!1 &2071789923
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,6 +4955,8 @@ MonoBehaviour:
   numberOfFloatingPoints: 1
   waterDrag: 0.99
   waterAngularDrag: 0.5
+  heightAboveTolerance: 1
+  multiplier: 1
 --- !u!54 &2075465809 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5889412898186980068, guid: 3868d2852341d6e488ed08290ac4cf4c,

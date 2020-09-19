@@ -21,14 +21,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blue
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: 4be68d7813324dd4786e4838d1434705, type: 3}
   m_ShaderKeywords: _ENVIRONMENTREFLECTIONS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2050
-  stringTagMap:
-    RenderType: Opaque
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -46,7 +45,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c3ee2c4a3dc97eb4dbc77ff35d6c963c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -61,7 +60,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6B17B596_Out_0:
+        m_Texture: {fileID: 2800000, guid: c3ee2c4a3dc97eb4dbc77ff35d6c963c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_1A28E29D: 0
+    - Vector1_319A9D4E: 0
+    - Vector1_83FDE968: 5
+    - Vector1_99B5315: 8
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -84,6 +91,9 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_32459A91: {r: 0, g: 0.175593, b: 0.3490566, a: 0}
+    - Color_7B24AEB6: {r: 0, g: 0.29196802, b: 0.5471698, a: 0}
+    - Color_B3DDA30: {r: 0, g: 0.16929336, b: 0.41509432, a: 1}
     - _BaseColor: {r: 0, g: 0.46341467, b: 1, a: 0.9995048}
     - _Color: {r: 0, g: 0.46341467, b: 1, a: 0.9995048}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}

@@ -5,13 +5,15 @@ using UnityEngine;
 
 public class Floating : MonoBehaviour
 {
+
     public Rigidbody rigidbody;
     public float depth = 1f;
     public float disp = 3f;
-    public int numberOfFloatingPoints = 1;
+    public float numberOfFloatingPoints = 1f;
     public float waterDrag = 0.99f;
     public float waterAngularDrag = 0.5f;
-
+    public float heightAboveTolerance = 1f;
+    public float multiplier = 1f;
 
     private void FixedUpdate()
     {

@@ -5,7 +5,6 @@ using UnityEngine;
 public class Wave : MonoBehaviour
 {
     public static Wave instance;
-
     public float amp = 1f;
     public float len = 2f;
     public float speed = 1f;
