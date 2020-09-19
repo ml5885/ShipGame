@@ -1128,7 +1128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489369213}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: -0.5, z: -5}
+  m_LocalPosition: {x: 0, y: -0.5, z: -3.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &497637724
@@ -1732,7 +1732,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637998633}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: -0.5, z: -5}
+  m_LocalPosition: {x: 1, y: -0.5, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -1753,7 +1753,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &653232648 stripped
@@ -1811,7 +1811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736951927}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 7.5}
+  m_LocalPosition: {x: -0.75, y: -0.5, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -1832,7 +1832,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &737901006
@@ -1851,7 +1851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &737901007
 Transform:
   m_ObjectHideFlags: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &738914878
@@ -1909,7 +1909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738914878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: -0.5, z: 5}
+  m_LocalPosition: {x: -1, y: -0.5, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -1930,7 +1930,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &758395764
@@ -2027,7 +2027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840263221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: -0.5, z: 5}
+  m_LocalPosition: {x: 0, y: -1, z: 3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &856167556
@@ -2524,7 +2524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amp: 4
-  len: 0.05
+  len: 0.0001
   speed: 4
   offsetWaves: 0
 --- !u!23 &1500057049
@@ -2975,7 +2975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029930868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -7.5}
+  m_LocalPosition: {x: 0.75, y: -0.5, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 161443307}
@@ -2996,7 +2996,7 @@ MonoBehaviour:
   rigidbody: {fileID: 369259167}
   depth: 1
   disp: 2
-  numberOfFloatingPoints: 7
+  numberOfFloatingPoints: 6
   waterDrag: 10
   waterAngularDrag: 10
 --- !u!1 &2075465806 stripped
