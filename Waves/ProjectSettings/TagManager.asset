@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Coins
+  - PlasticBottle
+  - PlasticBag
+  - GlassBottle
   layers:
   - Default
   - TransparentFX

@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class BoatHealth : MonoBehaviour
 {
     public int maxHealth = 100;
-    public int points = 0;
+    public int plasticBottlePoints = 0;
+    public int plasticBagPoints = 0;
+    public int glassBottlePoints = 0;
     public int currentHealth;
     public HealthBar healthBar;
     public GameObject pauseMenu;
@@ -34,14 +36,20 @@ public class BoatHealth : MonoBehaviour
     {
         if (col.tag == "Enemy")
         {
-            Debug.Log("hit enemy");
             currentHealth = currentHealth - 10;
             healthBar.setHealth(currentHealth);
         }
-        else if(col.tag == "Coins")
+        else if(col.tag == "PlasticBottle")
         {
-            points += 10;
-            Debug.Log(points);
+            plasticBottlePoints += 1;
+        }
+        else if(col.tag == "PlasticBag")
+        {
+            plasticBagPoints += 1;
+        }
+        else if(col.tag == "GlassBottle")
+        {
+            glassBottlePoints += 1;
         }
     }
 }

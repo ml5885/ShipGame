@@ -5,10 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-	Vector3 cachedScale;
+	public GameObject mainMenu;
+	public GameObject levelSelection;
+
     public void StartGame(){
-    	SceneManager.LoadScene("Free_Play");
-    }
+    	mainMenu.SetActive(false);
+    	levelSelection.SetActive(true);
+   	}
+
+   	public void startLevel(){
+   		SceneManager.LoadScene("Lvl_1");
+   	}
+
+   	public void startFreePlay(){
+   		SceneManager.LoadScene("Free_Play");
+   	}
 
     public void Exit(){
     	Application.Quit();
