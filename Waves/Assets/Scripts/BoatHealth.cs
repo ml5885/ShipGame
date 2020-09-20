@@ -13,6 +13,7 @@ public class BoatHealth : MonoBehaviour
     public HealthBar healthBar;
     public GameObject pauseMenu;
     public GameObject gameUI;
+    public AudioClip damage;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class BoatHealth : MonoBehaviour
     {
         if (col.tag == "Enemy")
         {
+            AudioSource.PlayClipAtPoint(damage, transform.position);
             currentHealth = currentHealth - 10;
             healthBar.setHealth(currentHealth);
         }
